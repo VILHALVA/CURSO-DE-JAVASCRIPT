@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONDIÇÕES PT 1</title>
+    <script>
+        function calcular() {
+            var VELOCIDADE = window.document.querySelector('input#VEL')
+            var res = window.document.querySelector('div#res')
+            var vel = Number(VELOCIDADE.value)
+            res.innerHTML = `SUA VELOCIDADE ATUAL É ${vel}KM/H <br>`
+            if (vel >= 60) {
+                res.innerHTML += "VOCÊ ULTRAPASSOU O LIMITE. FOI MULTADO!"
+            }
+            else {
+                res.innerHTML += "DIRIJA COM CUIDADO!"
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>CONDIÇÕES 1</h1>
+    <h2>SISTEMA DE MULTAS:</h2>
+    <label for="VEL">VELOCIDADE DO CARRO</label>
+    <input type="number" id="VEL">
+    <input type="button" value="CLICAR" onclick="calcular()">
+    <div id="res">
+
+    </div>
+</body>
+</html>
