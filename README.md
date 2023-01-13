@@ -11,7 +11,7 @@
 [![GitHub Repo stars](https://img.shields.io/badge/CURSO%20EM%20VIDEO-GITHUB-03A9F4?logo=github)](https://github.com/cursoemvideo)
 <br>
 
-<img src="https://www.tshirtgeek.com.br/wp-content/uploads/2021/03/com001.jpg" align="center" width="280"> <br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" align="center" width="280"> <br>
 
 # [MUNDO 1: FUNDAMENTOS](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
 * ✅ Introdução
