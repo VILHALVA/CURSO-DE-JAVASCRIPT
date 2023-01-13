@@ -13,29 +13,17 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" align="center" width="280"> <br>
 
-# [MUNDO 1: FUNDAMENTOS](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
-* ✅ Introdução
-* ✅ Instalando o Pycharm
-* ✅ Primeiros Comandos
-* ✅ Conhecendo o Input
-* ✅ Variáveis Simples
-* ✅ Estruturas Condicionais Simples
-* ✅ Operadores Aritméticas
-* ✅ Utilizando Módulos
-* ✅ Operações de Strings
-* ✅ Cores no Console
-
-# [MUNDO 2: ESTRUTURAS DE CONTROLE](https://www.youtube.com/watch?v=nJkVHusJp6E&list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye)
-* ✅ Condicionais Aninhadas
-* ✅ Estruturas de Repetição "for"
-* ✅ Estruturas de Repetição "while"
-* ✅ Interropendo Repetições
-
-# [MUNDO 3: ESTRUTURAS COMPOSTAS](https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH)
-* ✅ Variáveis Compostas: Tuplas
-* ✅ Variáveis Compostas: Listas
-* ✅ Variáveis Compostas: Dicionários
+# [TEMATICAS](https://youtu.be/1-w1RfGIov4)
+* ✅ A capacidade da linguagem
+* ✅ Variaveis e Tipos Primitivos
+* ✅ Tratamento de Dados
+* ✅ Operadores
+* ✅ Usando o DOM
+* ✅ Estruturas Condicionais Compostas
+* ✅ Estruturas Condicionais Aninhadas
+* ✅ Repetições while
+* ✅ Repetições for
+* ✅ Variaveis Compostas
 * ✅ Funções
-* ✅ Módulos e Pacotes
-* ✅ Tatamento de Erros e Exceções
+* ✅ Objetos
 
