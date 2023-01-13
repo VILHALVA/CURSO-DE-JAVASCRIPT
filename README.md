@@ -7,7 +7,7 @@
 [![GitHub Repo stars](https://img.shields.io/badge/GRUPO%20CODERS-TELEGRAM-03A9F4?logo=telegram)](https://t.me/CODIGOGP)
 [![GitHub Repo stars](https://img.shields.io/badge/CANAL%20CODERS-TELEGRAM-03A9F4?logo=telegram)](https://t.me/CODIGOCN) <br>
 
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20EM%20VIDEO-YOUTUBE-03A9F4?logo=youtube)](https://www.youtube.com/@CursoemVideo) 
+[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20EM%20VIDEO-YOUTUBE-03A9F4?logo=youtube)](https://youtu.be/1-w1RfGIov4) 
 [![GitHub Repo stars](https://img.shields.io/badge/CURSO%20EM%20VIDEO-GITHUB-03A9F4?logo=github)](https://github.com/cursoemvideo)
 <br>
 
