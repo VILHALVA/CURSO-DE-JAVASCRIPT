@@ -1,7 +1,7 @@
 # CURSO DE JAVASCRIPT
 👨‍⚖️CURSO COMPRETO DE JAVASCRIPT.
 
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20EM%20VIDEO-03A9F4?logo=youtube)](https://youtu.be/1-w1RfGIov4) 
+[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20EM%20VIDEO-03A9F4?logo=youtube)](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1) 
 [![GitHub Repo stars](https://img.shields.io/badge/CURSO%20EM%20VIDEO-03A9F4?logo=github)](https://github.com/cursoemvideo)
 <br>
 
