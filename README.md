@@ -8,6 +8,12 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" align="center" width="280"> <br>
 
+# REQUESITOS:
+* ✅[SABER LÓGICA DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-ALGORITMO)
+* ✅[SABER HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-CSS-JS)
+* ✅[INSTALAR O NODEJS](https://nodejs.org/pt-br/download/package-manager)
+* ✅[INSTALAR O VISUAL STUDIO CODE](https://code.visualstudio.com/download)
+
 # [TEMATICAS](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 * ✅ A capacidade da linguagem
 * ✅ Variaveis e Tipos Primitivos
