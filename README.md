@@ -33,22 +33,19 @@
 ## 1) VARIAVEIS SIMPLES:
 ````
 let nome = "João";
-
 console.log(nome);  // Saída: João
 ````
 Neste exemplo, declaramos uma variável chamada nome e atribuímos a ela o valor "João". Em seguida, usamos o método console.log() para imprimir o valor da variável nome no console. Você também pode atualizar o valor de uma variável em JavaScript. Por exemplo:
 ````
 let idade = 25;
-
 console.log(idade);  // Saída: 25
-
 idade = 30;
-
 console.log(idade);  // Saída: 30
 ````
 Neste exemplo, declaramos uma variável chamada idade e atribuímos a ela o valor 25. Em seguida, imprimimos o valor da variável idade no console. Depois, atualizamos o valor da variável idade para 30. Ao imprimir novamente o valor da variável idade, agora obtemos a saída como 30. É importante mencionar que o escopo das variáveis em JavaScript pode variar dependendo da palavra-chave usada para declará-las. A palavra-chave var possui escopo de função, enquanto let e const têm escopo de bloco. O escopo determina onde a variável é acessível e pode ser usada no código.
 
 ## 2) ESTRUTURA CONDICIONAL:
+### 1) ESTRUTURA IF:
 ````
 let idade = 18;
 if (idade >= 18) {
@@ -56,6 +53,8 @@ if (idade >= 18) {
 }
 ````
 Neste exemplo, usamos a estrutura if para verificar se a idade é maior ou igual a 18. Se a condição for verdadeira, o código dentro do bloco de código do if é executado.
+
+### 2) ESTRUTURA IF-ELSE:
 ````
 let idade = 16;
 if (idade >= 18) {
@@ -66,6 +65,8 @@ else {
 }
 ````
 Neste exemplo, usamos a estrutura if...else para verificar se a idade é maior ou igual a 18. Se a condição for verdadeira, o código dentro do bloco de código do if é executado. Caso contrário, o código dentro do bloco de código do else é executado.
+
+### 3) ESTRUTURA IF-ELSE, ELSE IF:
 ````
 let nota = 75;
 if (nota >= 90) {
@@ -82,6 +83,8 @@ else {
 }
 ````
 Neste exemplo, usamos a estrutura if...else if...else para verificar o intervalo de notas e atribuir um grau correspondente. O código verifica as condições em ordem, e apenas o bloco de código correspondente à primeira condição verdadeira é executado.
+
+### 4) ESTRUTURA SWITCH:
 ````
 let diaDaSemana = 2;
 let nomeDia;
