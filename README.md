@@ -278,7 +278,8 @@ gato.miar(); // Saída: Felix está miando.
 ````
 Neste exemplo, temos uma classe base Animal que contém propriedades nome e idade, bem como os métodos comer() e dormir(). Em seguida, temos duas classes derivadas, Cachorro e Gato, que herdam da classe base Animal. Cada classe derivada adiciona suas próprias propriedades e métodos específicos, como raca e latir() para o Cachorro, e cor e miar() para o Gato. Ao criar instâncias das classes Cachorro e Gato, podemos usar os métodos e propriedades tanto da classe base quanto das classes derivadas. Por exemplo, podemos chamar os métodos comer() e dormir() da classe base, bem como os métodos latir() e miar() das classes derivadas. Essa é uma demonstração simples de como as classes em JavaScript podem aproveitar os pilares da programação orientada a objetos. No entanto, vale ressaltar que o JavaScript utiliza protótipos para implementar a herança, diferentemente das classes tradicionais encontradas em outras linguagens orientadas a objetos.
 
-# ❤CARACTERISTICAS POSITIVAS:
+# 💖CARACTERISTICAS DA LINGUAGEM:
+## ❤POSITIVAS:
 * **1 - Sintaxe Simples:** A sintaxe do JavaScript é relativamente simples e fácil de aprender. Ela é baseada em grande parte na sintaxe do C, o que facilita a transição para desenvolvedores que já estão familiarizados com outras linguagens como C++, Java ou C#.
 * **2 - Linguagem Interpretada:** O JavaScript é uma linguagem interpretada, o que significa que não requer um processo de compilação antes da execução. Isso torna o desenvolvimento mais rápido, pois você pode fazer alterações no código e ver os resultados imediatamente.
 * **3 - Suporte a Programação Orientada a Objetos:** Embora o JavaScript seja uma linguagem de programação multiparadigma, ele suporta programação orientada a objetos. Você pode criar classes, herdar propriedades e métodos, usar polimorfismo e encapsulamento, entre outros conceitos de OOP.
@@ -288,7 +289,7 @@ Neste exemplo, temos uma classe base Animal que contém propriedades nome e idad
 * **7 - Grande Ecossistema:** O JavaScript possui uma comunidade de desenvolvedores ativa e um vasto ecossistema de bibliotecas e frameworks, como React, Angular e Vue.js, que tornam o desenvolvimento web mais produtivo e poderoso.
 * **8 - Execução no Navegador:** O JavaScript é a linguagem padrão para programação no navegador. Isso significa que qualquer dispositivo com um navegador moderno é capaz de executar código JavaScript, permitindo a criação de aplicações web interativas e responsivas.
 
-# 🖤CARACTERISTICAS NEGATIVAS:
+## 🖤NEGATIVAS:
 * **1 - Tipagem Fraca:** Enquanto a tipagem dinâmica do JavaScript pode ser uma vantagem em certos aspectos, também pode ser uma fonte de erros difíceis de detectar. Como as variáveis não possuem um tipo fixo, é possível realizar operações inesperadas em tempo de execução, o que pode resultar em erros difíceis de rastrear e depurar.
 * **2 - Compatibilidade entre Navegadores:** Embora o JavaScript seja executado em todos os navegadores modernos, pode haver diferenças de compatibilidade entre as implementações do JavaScript em cada navegador. Isso pode levar a problemas de compatibilidade e requerer ajustes no código para garantir que ele funcione corretamente em diferentes navegadores.
 * **3 - Gerenciamento de Escopo:** O JavaScript possui regras complexas para o escopo de variáveis e o gerenciamento de contexto. Isso pode levar a situações em que variáveis não têm o escopo desejado ou o contexto do this não é o esperado, o que pode ser confuso e levar a erros.
