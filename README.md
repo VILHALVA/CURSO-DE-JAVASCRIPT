@@ -29,6 +29,27 @@
 * ✅ OBJETOS
 
 ![](https://i.imgur.com/waxVImv.png)
+# 👀VISÃO PANORÂMICA:
+| PERGUNTA | RESPOSTA |
+| :---: | :---: |
+| DATA DE CRIAÇÃO | 1995 |
+| NOME DO CRIADOR | Brendan Eich | 
+| SIGNIFICADO DO NOME | O nome "JavaScript" foi escolhido pela Netscape por razões de marketing, aproveitando o sucesso e popularidade da linguagem Java na época. |
+| É BASEADA NO | C C++ |
+| EXTENÇÃO DO ARQUIVO | .js |
+| É MAIS USADA | Desenvolvimento web (FrontEnd) |
+
+* O JavaScript foi criado por Brendan Eich em 1995, quando ele era um engenheiro da Netscape Communications Corporation. A linguagem foi inicialmente chamada de "Mocha" e posteriormente renomeada para "LiveScript" antes de adotar o nome "JavaScript".
+* O nome "JavaScript" foi escolhido pela Netscape por razões de marketing, aproveitando o sucesso e popularidade da linguagem Java na época. No entanto, o JavaScript e o Java são linguagens distintas, com sintaxes e propósitos diferentes.
+* O JavaScript é uma linguagem de programação de alto nível, dinâmica e orientada a objetos. Ela foi criada originalmente para adicionar recursos interativos aos navegadores web e permitir a criação de conteúdo dinâmico nas páginas da web.
+* O JavaScript é amplamente usado no desenvolvimento web, principalmente para criar interatividade e funcionalidades dinâmicas nas páginas da web. Com o surgimento de tecnologias como o Node.js, o JavaScript também é utilizado para desenvolver aplicativos de servidor e aplicativos de linha de comando.
+* Além do desenvolvimento web, o JavaScript tem sido usado em outras áreas, como desenvolvimento de jogos, aplicativos móveis híbridos, aplicações de desktop com ferramentas como o Electron, desenvolvimento de extensões de navegador e até mesmo para criação de scripts automatizados.
+* O JavaScript também é a base para muitos frameworks e bibliotecas populares, como React, Angular e Vue.js, que são amplamente utilizados para desenvolvimento web moderno.
+* A sintaxe do JavaScript foi influenciada por várias linguagens de programação, mas sua estrutura básica é derivada da linguagem de programação C, assim como muitas outras linguagens modernas. A sintaxe do JavaScript também possui semelhanças com a linguagem de programação Java, embora as duas linguagens sejam diferentes em suas características e propósitos.
+* Embora o JavaScript compartilhe algumas semelhanças com o C e o Java em termos de sintaxe, ele possui recursos únicos e específicos, como manipulação de eventos, manipulação do DOM (Document Object Model) e recursos assíncronos. Esses recursos tornam o JavaScript uma linguagem poderosa e flexível para o desenvolvimento de aplicativos web interativos.
+* É importante notar que, embora o nome "JavaScript" possa sugerir uma relação próxima com a linguagem de programação Java, as duas são linguagens independentes com propósitos e características diferentes. O JavaScript é uma linguagem interpretada e dinamicamente tipada, enquanto o Java é uma linguagem compilada e estaticamente tipada.
+* Em resumo, o JavaScript foi criado por Brendan Eich e é uma linguagem de programação amplamente usada no desenvolvimento web. Ela fornece recursos interativos e dinâmicos às páginas da web e é utilizada para desenvolver uma variedade de aplicativos, desde websites interativos até aplicativos móveis, jogos e muito mais.
+
 # 🤳SINTAXE DA LINGUAGEM:
 ## 1) VARIAVEIS SIMPLES:
 ````
