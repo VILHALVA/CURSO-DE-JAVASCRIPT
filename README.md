@@ -52,12 +52,12 @@
 
 # 🤳SINTAXE DA LINGUAGEM:
 ## 1) VARIAVEIS SIMPLES:
-````
+````javascript
 let nome = "João";
 console.log(nome);  // Saída: João
 ````
 Neste exemplo, declaramos uma variável chamada nome e atribuímos a ela o valor "João". Em seguida, usamos o método console.log() para imprimir o valor da variável nome no console. Você também pode atualizar o valor de uma variável em JavaScript. Por exemplo:
-````
+````javascript
 let idade = 25;
 console.log(idade);  // Saída: 25
 idade = 30;
@@ -67,7 +67,7 @@ Neste exemplo, declaramos uma variável chamada idade e atribuímos a ela o valo
 
 ## 2) ESTRUTURA CONDICIONAL:
 ### 1) ESTRUTURA IF:
-````
+````javascript
 let idade = 18;
 if (idade >= 18) {
   console.log("Você é maior de idade.");
@@ -76,7 +76,7 @@ if (idade >= 18) {
 Neste exemplo, usamos a estrutura if para verificar se a idade é maior ou igual a 18. Se a condição for verdadeira, o código dentro do bloco de código do if é executado.
 
 ### 2) ESTRUTURA IF-ELSE:
-````
+````javascript
 let idade = 16;
 if (idade >= 18) {
   console.log("Você é maior de idade.");
@@ -88,7 +88,7 @@ else {
 Neste exemplo, usamos a estrutura if...else para verificar se a idade é maior ou igual a 18. Se a condição for verdadeira, o código dentro do bloco de código do if é executado. Caso contrário, o código dentro do bloco de código do else é executado.
 
 ### 3) ESTRUTURA IF-ELSE, ELSE IF:
-````
+````javascript
 let nota = 75;
 if (nota >= 90) {
   console.log("A");
@@ -106,7 +106,7 @@ else {
 Neste exemplo, usamos a estrutura if...else if...else para verificar o intervalo de notas e atribuir um grau correspondente. O código verifica as condições em ordem, e apenas o bloco de código correspondente à primeira condição verdadeira é executado.
 
 ### 4) ESTRUTURA SWITCH:
-````
+````javascript
 let diaDaSemana = 2;
 let nomeDia;
 switch (diaDaSemana) {
@@ -140,7 +140,7 @@ Neste exemplo, usamos a estrutura switch para atribuir um nome ao dia da semana 
 
 ## 3) ESTRUTURA DE REPETIÇÃO:
 ### 1) ESTRUTURA FOR:
-````
+````javascript
 for (let i = 0; i < 5; i++) {
   console.log(i);
 }
@@ -148,7 +148,7 @@ for (let i = 0; i < 5; i++) {
 Neste exemplo, usamos a estrutura for para iterar de 0 a 4. A expressão let i = 0 inicializa a variável i com o valor 0. A condição i < 5 define a condição de continuação do loop. Enquanto essa condição for verdadeira, o bloco de código dentro do for será executado. A expressão i++ é executada após cada iteração para atualizar o valor da variável i. Neste caso, imprimimos o valor de i no console.
 
 ### 2) ESTRUTURA WHILE:
-````
+````javascript
 let i = 0;
 while (i < 5) {
   console.log(i);
@@ -158,7 +158,7 @@ while (i < 5) {
 Neste exemplo, usamos a estrutura while para iterar de 0 a 4. A condição i < 5 é verificada antes de cada iteração. Enquanto essa condição for verdadeira, o bloco de código dentro do while será executado. A expressão i++ é executada após cada iteração para atualizar o valor da variável i. Aqui também imprimimos o valor de i no console.
 
 ### 3) ESTRUTURA DO WHILE:
-````
+````javascript
 let i = 0;
 do {
   console.log(i);
@@ -171,7 +171,7 @@ Neste exemplo, usamos a estrutura do...while para iterar de 0 a 4. O bloco de c�
 ## 4) VARIAVEIS COMPOSTAS:
 ### 1) ARRAYS:
 Um array é uma estrutura de dados que permite armazenar vários valores em uma única variável. Aqui está um exemplo de declaração e manipulação de um array em JavaScript:
-````
+````javascript
 // Declaração de um array de números
 let numeros = [1, 2, 3, 4, 5];
 
@@ -192,7 +192,7 @@ Neste exemplo, declaramos um array chamado numeros que contém os números de 1 
 
 ### 2) OBJETOS:
 Um objeto é uma estrutura de dados que permite armazenar pares de chave-valor. Aqui está um exemplo de como criar e manipular objetos em JavaScript:
-````
+````javascript
 // Criação de um objeto de pessoa
 let pessoa = {
   nome: "João",
@@ -212,7 +212,7 @@ Neste exemplo, criamos um objeto chamado pessoa que possui três propriedades: n
 
 ## 5) FUNÇÕES:
 Em JavaScript, as funções são blocos de código reutilizáveis que podem ser chamados para executar uma determinada tarefa. Elas permitem agrupar instruções em um único bloco, atribuir parâmetros e retornar valores. Aqui está um exemplo básico de como criar e usar funções em JavaScript:
-````
+````javascript
 // Declaração de uma função simples
 function saudacao() {
   console.log("Olá! Bem-vindo!");
@@ -222,7 +222,7 @@ function saudacao() {
 saudacao(); // Saída: Olá! Bem-vindo!
 ````
 Neste exemplo, declaramos uma função chamada saudacao que exibe uma mensagem de saudação no console. Para chamar a função e executar o código dentro dela, usamos o nome da função seguido por parênteses (). No exemplo, chamamos a função saudacao() e a mensagem "Olá! Bem-vindo!" é exibida no console. As funções também podem receber parâmetros, que são valores passados para a função durante a chamada. Aqui está um exemplo de função com parâmetros:
-````
+````javascript
 // Função que soma dois números
 function somar(a, b) {
   return a + b;
@@ -233,7 +233,7 @@ let resultado = somar(5, 3);
 console.log(resultado); // Saída: 8
 ````
 Neste exemplo, declaramos a função somar com dois parâmetros a e b. A função retorna a soma dos dois parâmetros. Ao chamar a função somar(5, 3), ela retorna o valor 8, que é armazenado na variável resultado. Em seguida, imprimimos o valor de resultado no console. Além disso, é possível definir funções anônimas (sem nome) e atribuí-las a variáveis ou passá-las como argumentos para outras funções. Aqui está um exemplo:
-````
+````javascript
 // Função anônima atribuída a uma variável
 let saudacao = function() {
   console.log("Olá! Bem-vindo!");
@@ -246,7 +246,7 @@ Neste exemplo, definimos uma função anônima e a atribuímos à variável saud
 
 ## 6) CLASS POO:
 Class com todos os 4 pilares da programação orientada a objetos: encapsulamento, herança, polimorfismo e abstração:
-````
+````javascript
 // Classe base: Animal
 class Animal {
   constructor(nome, idade) {
