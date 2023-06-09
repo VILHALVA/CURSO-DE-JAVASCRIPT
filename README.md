@@ -368,6 +368,32 @@ gato.miar(); // Saída: Felix está miando.
 ````
 Neste exemplo, temos uma classe base Animal que contém propriedades nome e idade, bem como os métodos comer() e dormir(). Em seguida, temos duas classes derivadas, Cachorro e Gato, que herdam da classe base Animal. Cada classe derivada adiciona suas próprias propriedades e métodos específicos, como raca e latir() para o Cachorro, e cor e miar() para o Gato. Ao criar instâncias das classes Cachorro e Gato, podemos usar os métodos e propriedades tanto da classe base quanto das classes derivadas. Por exemplo, podemos chamar os métodos comer() e dormir() da classe base, bem como os métodos latir() e miar() das classes derivadas. Essa é uma demonstração simples de como as classes em JavaScript podem aproveitar os pilares da programação orientada a objetos. No entanto, vale ressaltar que o JavaScript utiliza protótipos para implementar a herança, diferentemente das classes tradicionais encontradas em outras linguagens orientadas a objetos.
 
+## 7) INTEGRAÇÃO COM HTML:
+Em JavaScript, é possível integrar com o HTML para manipular os elementos da página, responder a eventos e fornecer interatividade. A integração ocorre por meio do uso do DOM (Document Object Model) e da manipulação dos elementos HTML por meio de scripts JavaScript. Aqui estão alguns exemplos de integração entre JavaScript e HTML:
+
+**1. Acessando elementos HTML:** Podemos usar o JavaScript para acessar e manipular elementos HTML por meio de seus identificadores. Por exemplo, se tivermos um elemento `<p>` com o id "meuParagrafo", podemos acessá-lo usando o método `getElementById` e modificar seu conteúdo da seguinte maneira:
+```javascript
+let paragrafo = document.getElementById("meuParagrafo");
+paragrafo.textContent = "Novo texto do parágrafo";
+```
+
+**2. Manipulando eventos:** Podemos atribuir funções JavaScript a eventos HTML para responder a ações do usuário. Por exemplo, se tivermos um botão com o id "meuBotao", podemos adicionar um evento de clique a ele usando o método `addEventListener` da seguinte maneira:
+
+```javascript
+let botao = document.getElementById("meuBotao");
+botao.addEventListener("click", function() {
+  console.log("Botão clicado!");
+});
+```
+
+**3. Modificando estilos:** Podemos usar o JavaScript para modificar estilos dos elementos HTML. Por exemplo, se tivermos um elemento `<div>` com o id "minhaDiv", podemos alterar sua cor de fundo usando a propriedade `style.backgroundColor`:
+
+```javascript
+let minhaDiv = document.getElementById("minhaDiv");
+minhaDiv.style.backgroundColor = "red";
+```
+Esses são apenas alguns exemplos de como JavaScript pode ser integrado com HTML. Com o JavaScript, é possível realizar manipulações mais avançadas no DOM, criar animações, fazer requisições AJAX, validar formulários e muito mais. A integração entre JavaScript e HTML permite criar páginas web dinâmicas e interativas.
+
 # 💖CARACTERISTICAS DA LINGUAGEM:
 ## ❤POSITIVAS:
 * **1 - Sintaxe Simples:** A sintaxe do JavaScript é relativamente simples e fácil de aprender. Ela é baseada em grande parte na sintaxe do C, o que facilita a transição para desenvolvedores que já estão familiarizados com outras linguagens como C++, Java ou C#.
