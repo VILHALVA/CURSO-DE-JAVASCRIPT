@@ -51,6 +51,61 @@
 * Em resumo, o JavaScript foi criado por Brendan Eich e é uma linguagem de programação amplamente usada no desenvolvimento web. Ela fornece recursos interativos e dinâmicos às páginas da web e é utilizada para desenvolver uma variedade de aplicativos, desde websites interativos até aplicativos móveis, jogos e muito mais.
 
 # 🤳SINTAXE DA LINGUAGEM:
+## 0) FUNDAMENTOS:
+Aqui está um exemplo de código em JavaScript que utiliza os operadores aritméticos, relacionais e lógicos com tipos primitivos:
+```javascript
+// Operadores aritméticos
+let x = 10;
+let y = 5;
+
+let soma = x + y;  // Soma: 15
+let subtracao = x - y;  // Subtração: 5
+let multiplicacao = x * y;  // Multiplicação: 50
+let divisao = x / y;  // Divisão: 2
+let resto = x % y;  // Resto da divisão: 0
+
+// Operadores relacionais
+let a = 10;
+let b = 5;
+
+let igual = a == b;  // Igualdade: false
+let diferente = a != b;  // Diferença: true
+let maior = a > b;  // Maior que: true
+let menor = a < b;  // Menor que: false
+let maiorOuIgual = a >= b;  // Maior ou igual: true
+let menorOuIgual = a <= b;  // Menor ou igual: false
+
+// Operadores lógicos
+let c = true;
+let d = false;
+
+let and = c && d;  // AND lógico: false
+let or = c || d;  // OR lógico: true
+let not = !c;  // NOT lógico: false
+
+console.log("Soma:", soma);
+console.log("Subtração:", subtracao);
+console.log("Multiplicação:", multiplicacao);
+console.log("Divisão:", divisao);
+console.log("Resto da divisão:", resto);
+
+console.log("Igualdade:", igual);
+console.log("Diferença:", diferente);
+console.log("Maior que:", maior);
+console.log("Menor que:", menor);
+console.log("Maior ou igual:", maiorOuIgual);
+console.log("Menor ou igual:", menorOuIgual);
+
+console.log("AND lógico:", and);
+console.log("OR lógico:", or);
+console.log("NOT lógico:", not);
+```
+Neste exemplo, utilizamos os operadores aritméticos (`+`, `-`, `*`, `/`, `%`), operadores relacionais (`==`, `!=`, `>`, `<`, `>=`, `<=`) e operadores lógicos (`&&`, `||`, `!`) para realizar diferentes operações com os valores das variáveis.
+
+Em seguida, utilizamos a função `console.log()` para exibir os resultados das operações no console do navegador.
+
+Assim, este exemplo demonstra o uso dos operadores aritméticos, relacionais e lógicos com tipos primitivos em JavaScript.
+
 ## 1) VARIAVEIS SIMPLES:
 ````javascript
 let nome = "João";
@@ -65,8 +120,22 @@ console.log(idade);  // Saída: 30
 ````
 Neste exemplo, declaramos uma variável chamada idade e atribuímos a ela o valor 25. Em seguida, imprimimos o valor da variável idade no console. Depois, atualizamos o valor da variável idade para 30. Ao imprimir novamente o valor da variável idade, agora obtemos a saída como 30. É importante mencionar que o escopo das variáveis em JavaScript pode variar dependendo da palavra-chave usada para declará-las. A palavra-chave var possui escopo de função, enquanto let e const têm escopo de bloco. O escopo determina onde a variável é acessível e pode ser usada no código.
 
+Em JavaScript, para obter a entrada de dados do usuário, podemos usar a função `prompt()`. Ela exibe uma caixa de diálogo onde o usuário pode digitar um valor e retornar esse valor como uma string. Aqui está um exemplo de como usar o `prompt()` para obter a entrada de dados:
+```javascript
+let nome = prompt("Digite seu nome:");
+console.log("Olá, " + nome + "!");
+
+let idade = prompt("Digite sua idade:");
+console.log("Sua idade é: " + idade);
+```
+Neste exemplo, a função `prompt()` é usada para exibir uma mensagem para o usuário e aguardar a entrada de um valor. O valor digitado pelo usuário é armazenado nas variáveis `nome` e `idade`. Em seguida, usamos a função `console.log()` para exibir as mensagens no console do navegador.
+
+Ao executar esse código em um navegador, você verá uma caixa de diálogo solicitando que o usuário digite seu nome. Depois de digitar o nome e pressionar Enter, o nome será exibido no console. Em seguida, será solicitado que o usuário digite sua idade e, após digitar e pressionar Enter, a idade será exibida no console.
+
+Dessa forma, o `prompt()` é uma maneira simples de obter a entrada de dados do usuário em JavaScript.
+
 ## 2) ESTRUTURA CONDICIONAL:
-### 1) ESTRUTURA IF:
+### ESTRUTURA IF:
 ````javascript
 let idade = 18;
 if (idade >= 18) {
@@ -75,7 +144,7 @@ if (idade >= 18) {
 ````
 Neste exemplo, usamos a estrutura if para verificar se a idade é maior ou igual a 18. Se a condição for verdadeira, o código dentro do bloco de código do if é executado.
 
-### 2) ESTRUTURA IF-ELSE:
+### ESTRUTURA IF-ELSE:
 ````javascript
 let idade = 16;
 if (idade >= 18) {
@@ -87,7 +156,7 @@ else {
 ````
 Neste exemplo, usamos a estrutura if...else para verificar se a idade é maior ou igual a 18. Se a condição for verdadeira, o código dentro do bloco de código do if é executado. Caso contrário, o código dentro do bloco de código do else é executado.
 
-### 3) ESTRUTURA IF-ELSE, ELSE IF:
+### ESTRUTURA IF-ELSE, ELSE IF:
 ````javascript
 let nota = 75;
 if (nota >= 90) {
@@ -105,7 +174,7 @@ else {
 ````
 Neste exemplo, usamos a estrutura if...else if...else para verificar o intervalo de notas e atribuir um grau correspondente. O código verifica as condições em ordem, e apenas o bloco de código correspondente à primeira condição verdadeira é executado.
 
-### 4) ESTRUTURA SWITCH:
+### ESTRUTURA SWITCH:
 ````javascript
 let diaDaSemana = 2;
 let nomeDia;
@@ -139,7 +208,7 @@ console.log(nomeDia);
 Neste exemplo, usamos a estrutura switch para atribuir um nome ao dia da semana com base no valor da variável diaDaSemana. O código verifica o valor e executa o bloco de código correspondente ao case correspondente. Se nenhum caso for correspondente, o bloco de código default é executado. Esses são apenas alguns exemplos das estruturas condicionais em JavaScript. Elas permitem que você tome decisões com base em condições e controle o fluxo do seu programa.
 
 ## 3) ESTRUTURA DE REPETIÇÃO:
-### 1) ESTRUTURA FOR:
+### ESTRUTURA FOR:
 ````javascript
 for (let i = 0; i < 5; i++) {
   console.log(i);
@@ -147,7 +216,7 @@ for (let i = 0; i < 5; i++) {
 ````
 Neste exemplo, usamos a estrutura for para iterar de 0 a 4. A expressão let i = 0 inicializa a variável i com o valor 0. A condição i < 5 define a condição de continuação do loop. Enquanto essa condição for verdadeira, o bloco de código dentro do for será executado. A expressão i++ é executada após cada iteração para atualizar o valor da variável i. Neste caso, imprimimos o valor de i no console.
 
-### 2) ESTRUTURA WHILE:
+### ESTRUTURA WHILE:
 ````javascript
 let i = 0;
 while (i < 5) {
@@ -157,7 +226,7 @@ while (i < 5) {
 ````
 Neste exemplo, usamos a estrutura while para iterar de 0 a 4. A condição i < 5 é verificada antes de cada iteração. Enquanto essa condição for verdadeira, o bloco de código dentro do while será executado. A expressão i++ é executada após cada iteração para atualizar o valor da variável i. Aqui também imprimimos o valor de i no console.
 
-### 3) ESTRUTURA DO WHILE:
+### ESTRUTURA DO-WHILE:
 ````javascript
 let i = 0;
 do {
@@ -169,7 +238,7 @@ while (i < 5);
 Neste exemplo, usamos a estrutura do...while para iterar de 0 a 4. O bloco de código dentro do do é executado pelo menos uma vez, e a condição i < 5 é verificada após cada iteração. Enquanto essa condição for verdadeira, o bloco de código continuará sendo executado. Novamente, imprimimos o valor de i no console. Essas são as estruturas de repetição mais comuns em JavaScript. Elas permitem que você execute um bloco de código repetidamente com base em uma condição ou um número específico de iterações.
 
 ## 4) VARIAVEIS COMPOSTAS:
-### 1) ARRAYS:
+### ARRAYS:
 Um array é uma estrutura de dados que permite armazenar vários valores em uma única variável. Aqui está um exemplo de declaração e manipulação de um array em JavaScript:
 ````javascript
 // Declaração de um array de números
@@ -190,7 +259,7 @@ for (let i = 0; i < numeros.length; i++) {
 ````
 Neste exemplo, declaramos um array chamado numeros que contém os números de 1 a 5. Usamos a notação de colchetes [] para acessar elementos específicos do array. O método push() é usado para adicionar um elemento ao final do array. O atributo length retorna o número de elementos no array. Também mostramos como percorrer o array usando um loop for.
 
-### 2) OBJETOS:
+### OBJETOS:
 Um objeto é uma estrutura de dados que permite armazenar pares de chave-valor. Aqui está um exemplo de como criar e manipular objetos em JavaScript:
 ````javascript
 // Criação de um objeto de pessoa
