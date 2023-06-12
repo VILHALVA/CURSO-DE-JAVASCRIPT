@@ -15,7 +15,7 @@
 * 💻[INSTALAR O VISUAL STUDIO CODE](https://code.visualstudio.com/download)
 
 # 🐱‍👤TEMÁTICAS:
-## [🕳JAVASCRIPT BÁSICO](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
+## [JAVASCRIPT BÁSICO](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 * ✅ A CAPACIDADE DA LINGUAGEM
 * ✅ VARIAVEIS E TIPOS PRIMITIVOS
 * ✅ TRATAMENTO DE DADOS
