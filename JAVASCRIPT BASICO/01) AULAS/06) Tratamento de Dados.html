@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRATAMENTO DE DADOS</title>
+    <script> // COMENTÁRIO PARA JS //
+        var n1 = Number(window.prompt('DIGITE O PRIMEIRO NÚMERO'))
+        var n2 = Number(window.prompt('DIGITE O SEGUNDO NÚMERO'))
+        var s = n1 + n2
+        window.alert(`A soma de ${n1} e ${n2} é ${s}`) // É OBRIGATÓRIO USO DE CRASE (``) NO LUGAR DE ASPAS ('', ""). //
+
+        // window.alert('A soma é ' +s(String)) < COVERTE DE NUM PARA STRING. //
+        // + > (number + number) = ADIÇÃO
+        // + > (string + string) = CONCATENAÇÃO
+
+        // 'ESTOU APRENDENDO +s' > NÃO FAZ INTERPOLAÇÃO
+        // 'ESTOU APRENDENDO' +s > USA CONCATENAÇÃO
+        // `ESTOU APRENDENDO ${s}` > USA TEMPLATE STRING (USA CRASE)
+
+        // s.length > Quantas letras a String tem.
+        // toUpperCase() > Tudo para Maiuscula.
+        // toLowerCase() > Tudo para Minusculas.
+
+        var nome = window.prompt('QUAL É O SEU NOME?')
+        window.alert('SEJA BEM VINDO ' + nome) //< CONCATENAÇÃO //
+
+        document.writeln(`OLÁ <strong>${nome}</strong> <br>`)
+        document.writeln(`SEU NOME TEM ${nome.length} LETRAS! <br>`) //< "document.write" = PRINT NO NAVEGADOR (USE "ln" ou "<br>" para pular linhas).
+        document.writeln(`SEU NOME EM MAIUSCULO É ${nome.toUpperCase()}! <br>`)
+        document.writeln(`SEU NOME EM MINUSCULO É ${nome.toLowerCase()}! <br>`)
+
+        /* DINHEIRO: 
+        n1.toFixed(2).replace("." , ",") < COVERTE PONTO PARA VIRGULA 
+        n1.toLocalString('pt-BR', {style: 'currency', currency: 'BRL'}) < ADICIONA "R$" AO VALOR.
+        */
+    </script>
+    <style> /* COMENTÁRIO PARA CSS */
+        body {
+            background-color: rgb(105, 105, 173); 
+            color: white;       
+            font: normal 20pt Arial;
+        }  
+        
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body> <!--COMENTÁRIO PARA HTML-->
+</body>
+</html>
