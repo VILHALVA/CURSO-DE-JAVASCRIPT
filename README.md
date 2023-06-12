@@ -14,7 +14,8 @@
 * 💻[INSTALAR O NODEJS](https://nodejs.org/pt-br/download/package-manager)
 * 💻[INSTALAR O VISUAL STUDIO CODE](https://code.visualstudio.com/download)
 
-# [🕳TEMATICAS](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
+# 🐱‍👤TEMÁTICAS:
+## [🕳JAVASCRIPT BÁSICO](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 * ✅ A CAPACIDADE DA LINGUAGEM
 * ✅ VARIAVEIS E TIPOS PRIMITIVOS
 * ✅ TRATAMENTO DE DADOS
@@ -27,6 +28,15 @@
 * ✅ VARIAVEIS COMPOSTAS
 * ✅ FUNÇÕES
 * ✅ OBJETOS
+
+## [JAVASCRIPT POO](https://github.com/VILHALVA)
+* ✅ CLASSES E OBJETOS
+* ✅ CONFIGURANDO VISIBILIDADE
+* ✅ METODOS GSC
+* ✅ PILARES DO POO
+* ✅ ENCAPSULAMENTO
+* ✅ HERANÇA
+* ✅ POLIMORFISMO
 
 ![](https://i.imgur.com/waxVImv.png)
 # 👀VISÃO PANORÂMICA:
@@ -393,6 +403,93 @@ let minhaDiv = document.getElementById("minhaDiv");
 minhaDiv.style.backgroundColor = "red";
 ```
 Esses são apenas alguns exemplos de como JavaScript pode ser integrado com HTML. Com o JavaScript, é possível realizar manipulações mais avançadas no DOM, criar animações, fazer requisições AJAX, validar formulários e muito mais. A integração entre JavaScript e HTML permite criar páginas web dinâmicas e interativas.
+
+**FORMULÁRIOS:**
+
+Aqui está um exemplo de um formulário básico em HTML e JavaScript:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulário</title>
+  <style>
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 5px;
+    }
+    .form-group button {
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Formulário de Contato</h2>
+    <form id="contact-form">
+      <div class="form-group">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    // Capturar o formulário pelo ID
+    const form = document.getElementById('contact-form');
+
+    // Adicionar um listener para o evento de submit
+    form.addEventListener('submit', function(event) {
+      event.preventDefault(); // Evitar o envio padrão do formulário
+
+      // Obter os valores dos campos do formulário
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      // Exibir os valores no console (pode ser substituído por uma ação real de envio)
+      console.log('Nome:', name);
+      console.log('Email:', email);
+      console.log('Mensagem:', message);
+
+      // Limpar os campos do formulário
+      form.reset();
+    });
+  </script>
+</body>
+</html>
+```
+
+Neste exemplo, temos um formulário de contato simples com campos para o nome, email e mensagem. O formulário é envolvido por uma `div` com a classe `.form-container` para melhorar a aparência.
+
+O JavaScript captura o formulário pelo ID (`contact-form`) e adiciona um listener para o evento de `submit`. Quando o formulário é enviado, o listener dispara uma função que evita o envio padrão do formulário usando `event.preventDefault()`.
+
+Em seguida, os valores dos campos do formulário são obtidos usando os IDs correspondentes (`name`, `email`, `message`). Neste exemplo, os valores são exibidos no console, mas você pode substituir essa ação por um código para enviar os dados para um servidor, por exemplo.
+
+Finalmente, após o processamento dos dados, o formulário é redefinido para limpar os campos usando `form.reset()`.
+
+Esse exemplo demonstra como criar um formulário básico em HTML e usar JavaScript para capturar os dados do formulário e realizar uma ação com eles. Você pode personalizar o estilo do formulário conforme necessário e adicionar validações adicionais, se desejar.
 
 # 💖CARACTERISTICAS DA LINGUAGEM:
 ## ❤POSITIVAS:
