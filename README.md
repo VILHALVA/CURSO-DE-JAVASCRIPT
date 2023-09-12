@@ -40,6 +40,7 @@
 
 # 📹VIDEOS DO YOUTUBE:
 * [CRIANDO FORMULARIO ANALIZADOR DE NUMEROS COM JS](https://youtu.be/0ujU6VIovcc?si=OJ85ywmIQ88ibjW8)
+* [CALCULANDO A MEDIA EM JAVASCRIPT POO](https://youtu.be/31EiBtc1TD0?si=yDZH_IV-SmFWay5Q)
 
 ![](https://i.imgur.com/waxVImv.png)
 # 👀VISÃO PANORÂMICA:
