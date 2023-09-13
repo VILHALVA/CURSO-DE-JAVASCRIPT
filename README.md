@@ -4,7 +4,9 @@
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://devdocs.io/javascript/) <br>
 
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO-COMPRETO-03A9F4?logo=youtube)](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1) <br>
+[![GitHub Repo stars](https://img.shields.io/badge/JAVASCRIPT-BASICO-03A9F4?logo=youtube)](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1) 
+[![GitHub Repo stars](https://img.shields.io/badge/JAVASCRIPT-POO-03A9F4?logo=youtube)](https://youtube.com/playlist?list=PLTULYczsbNmoLrNyVESgaqJTxMUEPl9Gv&si=BhPMBp0a9k0rlIVd)
+<br>
 
 <img src="https://logospng.org/download/javascript/logo-javascript-icon-256.png" align="center" width="280"> <br>
 
@@ -29,14 +31,23 @@
 * ✅ FUNÇÕES
 * ✅ OBJETOS
 
-## [JAVASCRIPT POO](https://github.com/VILHALVA)
-* ✅ CLASSES E OBJETOS
-* ✅ CONFIGURANDO VISIBILIDADE
-* ✅ METODOS GSC
-* ✅ PILARES DO POO
-* ✅ ENCAPSULAMENTO
-* ✅ HERANÇA
-* ✅ POLIMORFISMO
+## [JAVASCRIPT POO](https://youtube.com/playlist?list=PLTULYczsbNmoLrNyVESgaqJTxMUEPl9Gv&si=0Sr_2MWe2SDSNyaB)
+* ✅ CONFIGURANDO O AMBIENTE
+* ✅ TIPOS DE DADOS
+* ✅ INDETIFICANDO TIPOS
+* ✅ FUNÇÕES
+* ✅ METODOS E OBJETOS
+* ✅ ENTENDENDO OBJETOS
+* ✅ PROPRIEDADES DE OBJETOS
+* ✅ ATRIBUTOS DE PROPRIEDADES
+* ✅ DEFININDO VARIAS PROPRIEDADES
+* ✅ CONSTRUTURES E PROTOTIPOS
+* ✅ PROTOTYPE
+* ✅ HERANÇA PROTOTIPICA
+* ✅ MIXINS
+* ✅ ARRAYS
+* ✅ OPERADORES
+* ✅ LAÇOS DE INTERAÇÃO
 
 # 📹VIDEOS DO YOUTUBE:
 * [CRIANDO FORMULARIO ANALIZADOR DE NUMEROS COM JS](https://youtu.be/0ujU6VIovcc?si=OJ85ywmIQ88ibjW8)
