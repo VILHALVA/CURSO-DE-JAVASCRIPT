@@ -11,7 +11,7 @@
 <img src="https://logospng.org/download/javascript/logo-javascript-icon-256.png" align="center" width="280"> <br>
 
 # 💥REQUESITOS:
-* 🤯[SABER LÓGICA DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-ALGORITMO)
+* 🤯[SABER LÓGICA DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-PORTUGOL)
 * 🤯[SABER HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-CSS-JS)
 * 💻[INSTALAR O NODEJS](https://nodejs.org/pt-br/download/package-manager)
 * 💻[INSTALAR O VISUAL STUDIO CODE](https://code.visualstudio.com/download)
