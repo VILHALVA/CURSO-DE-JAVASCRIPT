@@ -2,58 +2,17 @@
 👨‍⚖️CURSO COMPRETO DE JAVASCRIPT.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
+[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=JavaScript)
+
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://devdocs.io/javascript/) <br>
 
-[![GitHub Repo stars](https://img.shields.io/badge/JAVASCRIPT-BASICO-03A9F4?logo=youtube)](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1) 
-[![GitHub Repo stars](https://img.shields.io/badge/JAVASCRIPT-POO-03A9F4?logo=youtube)](https://youtube.com/playlist?list=PLTULYczsbNmoLrNyVESgaqJTxMUEPl9Gv&si=BhPMBp0a9k0rlIVd)
-<br>
+[![GitHub Repo stars](https://img.shields.io/badge/-JAVASCRIPT%20BASICO-blueviolet)](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
+[![GitHub Repo stars](https://img.shields.io/badge/-JAVASCRIPT%20POO-blueviolet)](ttps://youtube.com/playlist?list=PLTULYczsbNmoLrNyVESgaqJTxMUEPl9Gv&si=BhPMBp0a9k0rlIVd)
 
 <img src="https://logospng.org/download/javascript/logo-javascript-icon-256.png" align="center" width="280"> <br>
 
-# 💥REQUESITOS:
-* 🤯[SABER LÓGICA DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-PORTUGOL)
-* 🤯[SABER HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-CSS-JS)
-* 💻[INSTALAR O NODEJS](https://nodejs.org/pt-br/download/package-manager)
-* 💻[INSTALAR O VISUAL STUDIO CODE](https://code.visualstudio.com/download)
-
-# 🐱‍👤TEMÁTICAS:
-## [JAVASCRIPT BÁSICO](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
-* ✅ A CAPACIDADE DA LINGUAGEM
-* ✅ VARIAVEIS E TIPOS PRIMITIVOS
-* ✅ TRATAMENTO DE DADOS
-* ✅ OPERADORES
-* ✅ USANDO O DOM
-* ✅ ESTRUTURAS CONDICIONAIS COMPOSTAS
-* ✅ ESTRUTURAS CONDICIONAIS ANINHADAS
-* ✅ REPETIÇÕES WHILE
-* ✅ REPETIÇÕES FOR
-* ✅ VARIAVEIS COMPOSTAS
-* ✅ FUNÇÕES
-* ✅ OBJETOS
-
-## [JAVASCRIPT POO](https://youtube.com/playlist?list=PLTULYczsbNmoLrNyVESgaqJTxMUEPl9Gv&si=0Sr_2MWe2SDSNyaB)
-* ✅ CONFIGURANDO O AMBIENTE
-* ✅ TIPOS DE DADOS
-* ✅ INDETIFICANDO TIPOS
-* ✅ FUNÇÕES
-* ✅ METODOS E OBJETOS
-* ✅ ENTENDENDO OBJETOS
-* ✅ PROPRIEDADES DE OBJETOS
-* ✅ ATRIBUTOS DE PROPRIEDADES
-* ✅ DEFININDO VARIAS PROPRIEDADES
-* ✅ CONSTRUTURES E PROTOTIPOS
-* ✅ PROTOTYPE
-* ✅ HERANÇA PROTOTIPICA
-* ✅ MIXINS
-* ✅ ARRAYS
-* ✅ OPERADORES
-* ✅ LAÇOS DE INTERAÇÃO
-
-# 📹VIDEOS DO YOUTUBE:
-* [CRIANDO FORMULARIO ANALIZADOR DE NUMEROS COM JS](https://youtu.be/0ujU6VIovcc?si=OJ85ywmIQ88ibjW8)
-* [CALCULANDO A MEDIA EM JAVASCRIPT POO](https://youtu.be/31EiBtc1TD0?si=yDZH_IV-SmFWay5Q)
-
 ![](https://i.imgur.com/waxVImv.png)
+
 # 👀VISÃO PANORÂMICA:
 | PERGUNTA | RESPOSTA |
 | :---: | :---: |
