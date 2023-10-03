@@ -7,7 +7,7 @@
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://devdocs.io/javascript/) <br>
 
 [![GitHub Repo stars](https://img.shields.io/badge/-JAVASCRIPT%20BASICO-blueviolet)](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
-[![GitHub Repo stars](https://img.shields.io/badge/-JAVASCRIPT%20POO-blueviolet)](ttps://youtube.com/playlist?list=PLTULYczsbNmoLrNyVESgaqJTxMUEPl9Gv&si=BhPMBp0a9k0rlIVd)
+[![GitHub Repo stars](https://img.shields.io/badge/-JAVASCRIPT%20POO-blueviolet)](https://youtube.com/playlist?list=PLTULYczsbNmoLrNyVESgaqJTxMUEPl9Gv&si=BhPMBp0a9k0rlIVd)
 
 <img src="https://logospng.org/download/javascript/logo-javascript-icon-256.png" align="center" width="280"> <br>
 
