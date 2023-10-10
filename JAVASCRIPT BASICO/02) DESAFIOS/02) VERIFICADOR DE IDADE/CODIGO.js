@@ -17,37 +17,37 @@ function verificar() {
         if (fsex[0].checked) {
             gênero = 'HOMEM'
             if (idade >= 0 && idade < 5) {
-                img.setAttribute('src', '../MIDIAS/mbebe.jpg')
+                img.setAttribute('src', 'MIDIAS/mbebe.jpg')
             }
             else if (idade >= 5 && idade < 12) {
-                img.setAttribute('src', '../MIDIAS/mcrianca.jpg')
+                img.setAttribute('src', 'MIDIAS/mcrianca.jpg')
             }
             else if (idade >= 12 && idade < 18) {
-                img.setAttribute('src', '../MIDIAS/mjovem.jpg')
+                img.setAttribute('src', 'MIDIAS/mjovem.jpg')
             }
             else if (idade >= 18 && idade < 60) {
-                img.setAttribute('src', '../MIDIAS/madulto.jpg')
+                img.setAttribute('src', 'MIDIAS/madulto.jpg')
             }
             else {
-                img.setAttribute('src', '../MIDIAS/mvelho.jpg')
+                img.setAttribute('src', 'MIDIAS/mvelho.jpg')
             }
         }
         else {
             gênero = 'MULHER'
             if (idade >= 0 && idade < 5) {
-                img.setAttribute('src', '../MIDIAS/fbebe.jpg')
+                img.setAttribute('src', 'MIDIAS/fbebe.jpg')
             }
             else if (idade >= 5 && idade < 12) {
-                img.setAttribute('src', '../MIDIAS/fcrianca.jpg')
+                img.setAttribute('src', 'MIDIAS/fcrianca.jpg')
             }
             else if (idade >= 12 && idade < 18) {
-                img.setAttribute('src', '../MIDIAS/fjovem.jpg')
+                img.setAttribute('src', 'MIDIAS/fjovem.jpg')
             }
             else if (idade >= 18 && idade < 60) {
-                img.setAttribute('src', '../MIDIAS/fadulta.jpg')
+                img.setAttribute('src', 'MIDIAS/fadulta.jpg')
             }
             else {
-                img.setAttribute('src', '../MIDIAS/fvelha.jpg')
+                img.setAttribute('src', 'MIDIAS/fvelha.jpg')
             }
         }
         res.innerHTML = `VOCÊ É ${gênero} COM ${idade} ANOS!`
