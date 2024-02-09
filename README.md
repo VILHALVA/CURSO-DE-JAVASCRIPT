@@ -62,8 +62,7 @@
 * **7 - Lentidão em Operações Intensivas:** O JavaScript pode ser menos eficiente em operações intensivas de CPU em comparação com outras linguagens, devido à sua natureza interpretada e à otimização limitada do mecanismo de execução em alguns cenários. No entanto, o JavaScript é frequentemente usado em conjunto com outras tecnologias para superar essa limitação.
 
 ## SUBSIDIOS:
-- ["JAVASCRIPT BASICO" CRIADO PELO "CURSO EM VIDEO"](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
-- ["JAVASCRIPT POO" CRIADO PELO "VIVO DE CÓDIGO"](https://youtube.com/playlist?list=PLTULYczsbNmoLrNyVESgaqJTxMUEPl9Gv&si=BhPMBp0a9k0rlIVd)
+- [CURSO CRIADO PELO "CURSO EM VIDEO"](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://devdocs.io/javascript/)
 - [VEJA A SINTAXE](./SINTAXE.md)
