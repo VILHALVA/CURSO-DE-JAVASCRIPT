@@ -66,5 +66,6 @@
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://devdocs.io/javascript/)
 - [VEJA A SINTAXE](./SINTAXE.md)
+- [CURSO DE JAVASCRIPT POO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT-POO)
 - [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=+topic:JAVASCRIPT)
 
