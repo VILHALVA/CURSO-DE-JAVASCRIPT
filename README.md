@@ -65,6 +65,7 @@
 - [CURSO CRIADO PELO "CURSO EM VIDEO"](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://devdocs.io/javascript/)
+- [VEJA O MANUAL](./MANUAL.md)
 - [VEJA A SINTAXE](./SINTAXE.md)
 - [CURSO DE JAVASCRIPT POO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT-POO)
 - [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=+topic:JAVASCRIPT)
