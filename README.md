@@ -63,6 +63,7 @@
 
 ## SUBSIDIOS:
 - ["JAVASCRIPT BASICO" FOI CRIADO PELO "CURSO EM VIDEO"](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
+- [VEJA A LISTA DE DASAFIOS E EXERCICIOS](https://github.com/gustavoguanabara/javascript)
 - ["JAVASCRIPT POO" FOI CRIADO PELO "VIVO DE CÓDIGO"](https://youtube.com/playlist?list=PLTULYczsbNmoLrNyVESgaqJTxMUEPl9Gv&si=BhPMBp0a9k0rlIVd)
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://devdocs.io/javascript/)
