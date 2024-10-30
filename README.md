@@ -69,6 +69,5 @@
 - [VEJA A DOCUMENTAÇÃO](https://devdocs.io/javascript/)
 - [VEJA O MANUAL](./MANUAL.md)
 - [VEJA A SINTAXE](./SINTAXE.md)
-- [VEJA O APÊNDICE](./APENDICE.md)
 - [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=+topic:JAVASCRIPT)
 
