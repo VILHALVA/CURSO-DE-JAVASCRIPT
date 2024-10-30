@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionais em JavaScript</title>
+</head>
+<body>
+
+    <h1>Exemplos de Condicionais em JavaScript</h1>
+    <div id="output"></div>
+
+    <script>
+        const outputDiv = document.getElementById('output');
+        
+        //--------------- [ 1 ] CONDICIONAIS ANINHADAS ------------------------------//
+        let idade = 12;
+        outputDiv.innerHTML += `<p>VOCÊ TEM ${idade} ANOS!</p>`;
+
+        if (idade >= 18 && idade < 65) {
+            outputDiv.innerHTML += `<p>O VOTO É OBRIGATÓRIO</p>`;
+        } else if ((idade >= 16 && idade < 18) || idade >= 65) {
+            outputDiv.innerHTML += `<p>VOTO É OPCIONAL!</p>`;
+        } else if (idade < 16) {
+            outputDiv.innerHTML += `<p>VOCÊ NÃO PODE VOTAR!</p>`;
+        }
+
+        //--------------- [ 2 ] CONDICIONAIS COMPOSTAS ------------------------------//
+        let agora = new Date();
+        let hora = agora.getHours();
+        outputDiv.innerHTML += `<p>AGORA SÃO ${hora} HORAS!</p>`;
+
+        if (hora >= 6 && hora < 12) {
+            outputDiv.innerHTML += `<p>BOM DIA!</p>`;
+        }
+        if (hora >= 12 && hora < 18) {
+            outputDiv.innerHTML += `<p>BOA TARDE!</p>`;
+        }
+        if (hora >= 18 && hora < 23) {
+            outputDiv.innerHTML += `<p>BOA NOITE!</p>`;
+        }
+        if (hora >= 0 && hora < 6) {
+            outputDiv.innerHTML += `<p>VÁ DORMIR!</p>`;
+        }
+
+        //--------------- [ 3 ] CONDICIONAIS MULTIPLAS ------------------------------//
+        let dia = new Date();
+        let diaSem = dia.getDay();
+        let diaNum = agora.getDate();
+        let diaMes = agora.getMonth();
+        let diaAno = agora.getFullYear();
+
+        switch(diaSem) {
+            case 0:
+                outputDiv.innerHTML += `<p>HOJE É DOMINGO!</p>`;
+                break;
+            case 1:
+                outputDiv.innerHTML += `<p>HOJE É SEGUNDA-FEIRA!</p>`;
+                break;
+            case 2:
+                outputDiv.innerHTML += `<p>HOJE É TERÇA-FEIRA!</p>`;
+                break;
+            case 3:
+                outputDiv.innerHTML += `<p>HOJE É QUARTA-FEIRA!</p>`;
+                break;
+            case 4:
+                outputDiv.innerHTML += `<p>HOJE É QUINTA-FEIRA!</p>`;
+                break;
+            case 5:
+                outputDiv.innerHTML += `<p>HOJE É SEXTA-FEIRA!</p>`;
+                break;
+            case 6:
+                outputDiv.innerHTML += `<p>HOJE É SÁBADO!</p>`;
+                break;
+            default:
+                outputDiv.innerHTML += `<p>ERRO: ${diaSem} É UM DIA INVÁLIDO!</p>`;
+                break;
+        }
+
+        outputDiv.innerHTML += `<p>DATE: ${diaNum}/${diaMes + 1}/${diaAno}</p>`;
+    </script>
+</body>
+</html>

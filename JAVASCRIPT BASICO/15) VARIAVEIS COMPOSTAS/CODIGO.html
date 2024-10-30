@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de Vetor em JavaScript</title>
+</head>
+<body>
+
+    <h1>Exemplo de Manipulação de Vetor</h1>
+    <div id="output"></div>
+
+    <script>
+        const outputDiv = document.getElementById('output');
+
+        let num = [5, 7, 9, 2, 6];
+        num[5] = 3;
+        num.push(4); // Adicionar 4 ao último índice.
+        num.sort();  // Ordena o array em ordem crescente.
+        num.push(1); // Adiciona o valor 1 ao último índice.
+
+        // Exibe o array completo
+        outputDiv.innerHTML += `<p>Nosso vetor é: ${num}</p>`;
+        outputDiv.innerHTML += `<p>Temos ${num.length} elementos no vetor! Até ${num.length - 1} no índice.</p>`;
+
+        // Exibe cada índice do vetor individualmente
+        for (let i = 0; i < num.length; i++) {
+            outputDiv.innerHTML += `<p>O índice ${i} é ${num[i]}</p>`;
+        }
+
+        // Busca por índices específicos
+        outputDiv.innerHTML += `<p>O número 5 está no índice ${num.indexOf(5)}</p>`;
+        outputDiv.innerHTML += `<p>O número 7 está no índice ${num.indexOf(7)}</p>`;
+        outputDiv.innerHTML += `<p>O número 9 está no índice ${num.indexOf(9)}</p>`;
+        outputDiv.innerHTML += `<p>O número 2 está no índice ${num.indexOf(2)}</p>`;
+        outputDiv.innerHTML += `<p>O número 6 está no índice ${num.indexOf(6)}</p>`;
+
+        // Verifica a existência do número 9 no vetor
+        let poz = num.indexOf(9);
+        if (poz === -1) {
+            outputDiv.innerHTML += `<p>O valor 9 não foi encontrado!</p>`;
+        } else {
+            outputDiv.innerHTML += `<p>O 9 foi encontrado na posição ${poz}</p>`;
+        }
+
+        // Loop para exibir cada índice e seu valor usando `for`
+        outputDiv.innerHTML += `<h3>Usando loop for:</h3>`;
+        for (let pos = 0; pos < num.length; pos++) {
+            outputDiv.innerHTML += `<p>O índice ${pos} tem o elemento ${num[pos]}</p>`;
+        }
+
+        // Loop para exibir cada índice e seu valor usando `for...in`
+        outputDiv.innerHTML += `<h3>Usando loop for...in:</h3>`;
+        for (let pos in num) {
+            outputDiv.innerHTML += `<p>A chave ${pos} tem o elemento num ${num[pos]}</p>`;
+        }
+    </script>
+</body>
+</html>

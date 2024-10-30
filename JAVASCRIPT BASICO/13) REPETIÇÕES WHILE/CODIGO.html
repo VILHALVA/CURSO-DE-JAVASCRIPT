@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Loops em JavaScript</title>
+</head>
+<body>
+
+    <h1>Exemplos de Loops em JavaScript</h1>
+    <div id="output"></div>
+
+    <script>
+        const outputDiv = document.getElementById('output');
+        
+        //--------------- LOOP WHILE ------------------------------//
+        let c = 1;
+        while (c <= 6) {
+            outputDiv.innerHTML += `<p>PASSO ${c}</p>`;
+            c++;
+        }
+
+        //--------------- LOOP DO...WHILE -------------------------//
+        let d = 1;
+        do {
+            outputDiv.innerHTML += `<p>LADO ${d}</p>`;
+            d++;
+        } while (d <= 10);
+    </script>
+</body>
+</html>

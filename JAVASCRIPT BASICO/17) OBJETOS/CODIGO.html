@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objeto Amigo em JavaScript</title>
+</head>
+<body>
+
+    <h1>Objeto Amigo em JavaScript</h1>
+    <div id="output"></div>
+
+    <script>
+        const outputDiv = document.getElementById('output');
+
+        // Definindo o objeto amigo com suas propriedades e métodos
+        let amigo = {
+            nome: 'José',
+            sexo: 'M',
+            peso: 85.4,
+            engordar(p = 0) {
+                console.log('ENGORDOU!');
+                this.peso += p;
+            }
+        };
+
+        // Exibindo o objeto amigo e suas propriedades
+        outputDiv.innerHTML += `<p>Objeto amigo: ${JSON.stringify(amigo)}</p>`;
+        outputDiv.innerHTML += `<p>Nome: ${amigo.nome}</p>`;
+        outputDiv.innerHTML += `<p>Sexo: ${amigo.sexo}</p>`;
+        outputDiv.innerHTML += `<p>Peso: ${amigo.peso}</p>`;
+        outputDiv.innerHTML += `<p>Tipo de amigo: ${typeof amigo}</p>`;
+
+        // Chamando a função engordar para aumentar o peso do amigo
+        amigo.engordar(2);
+
+        // Exibindo os resultados após a chamada da função engordar
+        outputDiv.innerHTML += `<p>Após engordar, o ${amigo.nome} é do sexo ${amigo.sexo} e pesa ${amigo.peso} kg.</p>`;
+    </script>
+</body>
+</html>

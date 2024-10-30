@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Funções em JavaScript</title>
+</head>
+<body>
+
+    <h1>Exemplo de Funções em JavaScript</h1>
+    <div id="output"></div>
+
+    <script>
+        const outputDiv = document.getElementById('output');
+
+        //--------------- FUNÇÃO PAR OU ÍMPAR ------------------------------//
+        function parimpa(n) {
+            if (n % 2 === 0) {
+                return `O VALOR ${n} É PAR!`;
+            } 
+            else {
+                return `O VALOR ${n} É IMPAR!`;
+            }
+        }
+
+        // Testes da função `parimpa`
+        outputDiv.innerHTML += `<p>${parimpa(11)}</p>`;
+        outputDiv.innerHTML += `<p>${parimpa(22)}</p>`;
+        outputDiv.innerHTML += `<p>${parimpa(51)}</p>`;
+        outputDiv.innerHTML += `<p>${parimpa(54)}</p>`;
+        outputDiv.innerHTML += `<p>${parimpa(99)}</p>`;
+        outputDiv.innerHTML += `<p>${parimpa(12)}</p>`;
+
+        //--------------- FUNÇÃO SOMA ------------------------------//
+        function soma(n1 = 0, n2 = 0) {
+            return `A soma entre ${n1} + ${n2} = ${n1 + n2}`;
+        }
+
+        // Testes da função `soma`
+        outputDiv.innerHTML += `<p>${soma(2, 5)}</p>`;
+        outputDiv.innerHTML += `<p>${soma(12, 5)}</p>`;
+        outputDiv.innerHTML += `<p>${soma(22, 45)}</p>`;
+        outputDiv.innerHTML += `<p>${soma(32, 8)}</p>`;
+        outputDiv.innerHTML += `<p>${soma(50, 50)}</p>`;
+        outputDiv.innerHTML += `<p>${soma(2)}</p>`;
+
+        //--------------- FUNÇÃO DOBRO ------------------------------//
+        let valor = function(x) {
+            return `O Valor ${x} em Dobro é ${x * 2}`;
+        };
+
+        // Testes da função `valor`
+        outputDiv.innerHTML += `<p>${valor(2)}</p>`;
+        outputDiv.innerHTML += `<p>${valor(10)}</p>`;
+        outputDiv.innerHTML += `<p>${valor(30)}</p>`;
+        outputDiv.innerHTML += `<p>${valor(60)}</p>`;
+        outputDiv.innerHTML += `<p>${valor(80)}</p>`;
+        outputDiv.innerHTML += `<p>${valor(100)}</p>`;
+
+        //--------------- FUNÇÃO FACTORIAL ------------------------------//
+        function factorial(num) {
+            let fat = 1;
+            for (let c = num; c > 1; c--) {
+                fat *= c;
+            }
+            return `O Factorial de ${num} é ${fat}`;
+        }
+
+        // Testes da função `factorial`
+        outputDiv.innerHTML += `<p>${factorial(5)}</p>`;
+        outputDiv.innerHTML += `<p>${factorial(8)}</p>`;
+        outputDiv.innerHTML += `<p>${factorial(10)}</p>`;
+        outputDiv.innerHTML += `<p>${factorial(2)}</p>`;
+        outputDiv.innerHTML += `<p>${factorial(15)}</p>`;
+        outputDiv.innerHTML += `<p>${factorial(20)}</p>`;
+
+        //--------------- FUNÇÃO FATORIAL RECURSIVA ------------------------------//
+        function fatorial(n) { // RECURSIVIDADE
+            if (n === 1) {
+                return 1;
+            } 
+            else {
+                return n * fatorial(n - 1);
+            }
+        }
+
+        // Testes da função recursiva `fatorial`
+        outputDiv.innerHTML += `<p>O Fatorial Recursivo de 5 é ${fatorial(5)}</p>`;
+    </script>
+</body>
+</html>
