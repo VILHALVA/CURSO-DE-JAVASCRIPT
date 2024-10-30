@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Externo</title>
+    <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .btn {
+                padding: 30px;
+                font-size: 1em;
+            }
+    </style>
+</head>
+<body>
+       <header>
+            <h1>JavaScript Externo</h1>
+       </header>
+       <main>
+            <input type="button" value="Ação 1" id="btn1" class="btn" onclick="clicou1()">
+
+            <input type="button" value="Ação 2" id="btn2" class="btn" onclick="clicou2()">
+
+            <input type="button" value="Ação 3" id="btn3" class="btn" onclick="clicou3()">
+
+            <input type="button" value="Ação 4" id="btn4"
+            class="btn" onclick="clicou4()">
+
+            <div id="res">
+                <p>Aqui vou registrar suas ações com os botões acima.</p>
+            </div>
+       </main> 
+       <script src="script.js"></script>
+</body>
+</html>

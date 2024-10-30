@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <header>
+            <h1>Contagem "Inteligente"</h1>
+       </header>
+       <main>
+            <p>Use qualquer valor nas caixas, simule contagens crescentes e regressivas. Use também valores negativos.</p>
+
+            <form action="#">
+                   <label for="numInicio">Valor Inicial: </label>
+                   
+                   <input type="number" name = "numInicio" id="numInicio" placeholder="Início da contagem">
+                   <br> 
+                   <label for="">Valor final: </label>
+
+                   <input type="number" name="numFinal" id="numFinal" placeholder="Fim da contagem">
+                    <br>
+                    <input type="submit" value="Contar" id="btnCont" formaction="javascript:contar()">
+            </form>
+            <div id="res">
+                <p>Preencha os dados acima e aperte o botão.</p>
+            </div>
+       </main> 
+       <script src="script.js"></script>
+</body>
+</html>

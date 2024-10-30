@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O número é par ou ímpar?</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main > input {
+            padding: 30px;
+            font-size:1em;
+        }
+    </style>
+</head>
+<body>
+       <header>
+            <h1>É par ou ímpar ?</h1>
+       </header>
+       <main>
+              <input type="button" value="Clique para iniciar" onclick="clicou()">
+              
+              <div id="res">
+                    <p>O resultado vai aparecer aqui...</p>
+              </div>
+       </main> 
+       <script>
+                function clicou(){
+                    let msg = document.getElementById('res');
+
+                    let n = Number(prompt('Digite um número:'));
+
+                    if(n % 2 == 0){
+                        msg.innerHTML = `<p>O número ${n} que foi digitado é <strong>PAR!</strong></p>`;
+                    } 
+                    else {
+                        msg.innerHTML = `<p>O número ${n} que foi digitado é <strong>ÍMPAR!</strong></p>`;
+                    }
+                }
+       </script>
+</body>
+</html>

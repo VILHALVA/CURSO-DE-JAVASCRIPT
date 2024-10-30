@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de números</title>
+    <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            main input {
+                padding: 30px;
+                font-size: 1em;
+            }
+    </style>
+</head>
+<body>  
+       <header>
+            <h1>Gerador de números</h1>
+       </header> 
+       <main>
+           <input type="button" value="Clique em mim" id="btnAdd" onclick="clicou()">
+           <input type="button" value="Limpar" id="btnClear" onclick="limpar()">
+
+           <div id="res">
+                <p>A cada vez que você apertar o botão acima, eu penso em um número entre 1 e 100.</p>
+           </div>
+       </main>
+       <script>
+                let res = document.getElementById('res');
+
+                function clicou(){
+                    let numero = Number.parseInt(1 + (Math.random()) * (100-1));
+
+                    res.innerHTML += `<p>Acabei de pensar no número <mark>${numero}</mark>!</p>`;
+                }
+
+                function limpar(){
+                    res.innerHTML = '';
+                }
+       </script>
+</body>
+</html>

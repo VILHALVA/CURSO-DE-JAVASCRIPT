@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados do Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <header>
+            <h1>Contando de 0 até um número positivo qualquer</h1>
+       </header>
+       <main>
+            <p>Escolha o limite final para a contagem a partir do 0 (digite apenas números positivos)  
+            </p>
+
+            <form action="#" method="GET">
+                <label for="num">Valor Final:</label>
+                
+                <input type="number" name="num" id="num" placeholder="Apenas positivos">
+                <input type="submit" value="Contar" id="btnCont" formaction="javascript:contar()">
+            </form>
+
+            <div id="res">
+                <p>Preencha os dados acima e aperte o botão.</p>
+            </div>
+       </main> 
+       <script src="script.js"></script>
+</body>
+</html>

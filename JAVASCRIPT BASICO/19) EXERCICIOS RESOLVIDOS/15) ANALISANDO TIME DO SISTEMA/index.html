@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisando Data e Hora</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        h1{
+            font-size: 1.7em;
+        }
+        input{
+            padding: 30px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+       <h1>Analisando Data e Hora do Sistema</h1> 
+
+       <input type="button" value="Iniciar Análise" onclick="clicou()">
+
+       <div id="res">
+            <p>Aqui vai aparecer algo...</p>
+       </div>
+       <script>
+            function clicou(){
+            let res = document.getElementById('res');
+            let data = new Date();
+
+            let meses = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
+
+            let dias = ['Dom','Seg','Ter','Qua','Qui','Sex','Sab'];
+
+            res.innerHTML = `<p>Dia: <mark>${data.getDate()}</mark></p>`;
+
+            res.innerHTML += `<p>Mês: <mark>${meses[data.getMonth()]}</mark></p>`;
+
+            res.innerHTML += `<p>Ano: <mark>${data.getFullYear()}</mark></p>`;
+
+            res.innerHTML += `<p>Dia da semana: <mark>${dias[data.getDay()]}</mark></p>`;
+
+            res.innerHTML += `<p>Hora: <mark>${data.getHours()}</mark></p>`;
+
+            res.innerHTML += `<p>Minutos: <mark>${data.getMinutes()}</mark></p>`;
+
+            res.innerHTML += `<p>Segundos: <mark>${data.getSeconds()}</mark></p>`;
+            
+            }   
+       </script>
+</body>
+</html>

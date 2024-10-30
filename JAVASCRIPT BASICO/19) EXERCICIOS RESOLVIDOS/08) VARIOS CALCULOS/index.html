@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números com JS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main > input {
+            padding: 30px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+       <header>
+            <h1>Vários cálculos em JS</h1>
+       </header> 
+       <main>
+            <input type="button" value="Clique para calcular" id="btn" onclick="clicou()">
+
+            <p id="resNumber">
+                O resultado vai aparecer aqui...
+            </p>
+
+            <div id="res">
+
+            </div>
+       </main>
+       <script>
+
+                function clicou(){
+                    let numero = Number(prompt('Digite um número:'));
+                    let resNumero = document.getElementById('resNumber');
+                    let res = document.getElementById('res');
+                    let p1 = document.createElement('p');
+                    let p2 = document.createElement('p');
+                    let p3 = document.createElement('p');
+                    let p4 = document.createElement('p');
+                    let p5 = document.createElement('p');
+                    let p6 = document.createElement('p');
+                    let p7 = document.createElement('p');
+
+                    res.innerHTML = '';
+
+                    resNumero.innerHTML = `O número a ser analisado aqui será o <strong>${numero}</strong>`;
+
+                    resNumero.innerHTML += '<br>';
+                    resNumero.innerHTML += '<hr>';
+
+
+                    p1.innerHTML = `O seu valor absoluto é ${Math.abs(numero)}`;
+
+                    p2.innerHTML = `A sua parte inteira é ${Number.parseInt(numero)}`;
+
+                    p3.innerHTML = `O valor inteiro mais próximo é ${Math.round(numero)}`;
+
+                    p4.innerHTML = `A sua raiz quadrada é ${Math.sqrt(numero)}`;
+
+                    p5.innerHTML = `A sua raiz cúbica é ${Math.cbrt(numero)}`;
+
+                    p6.innerHTML = `O valor de ${numero}<sup>2</sup> é ${numero**2}`;
+
+                    p7.innerHTML = `O valor de ${numero}<sup>3</sup> é ${numero**3}`;
+
+                    res.appendChild(p1);
+                    res.appendChild(p2);
+                    res.appendChild(p3);
+                    res.appendChild(p4);
+                    res.appendChild(p5);
+                    res.appendChild(p6);
+                    res.appendChild(p7);
+
+                    
+                }
+       </script>    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números com JS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main > input {
+            padding: 30px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+       <header>
+            <h1>Média do aluno v1.0</h1>
+       </header> 
+       <main>
+            <input type="button" value="Calcular média" id="btn" onclick="clicou()">
+
+            <div id="res">
+                <p>O resultado vai aparecer aqui</p>
+            </div>
+       </main>
+       <script>
+                let res = document.getElementById('res');
+                function clicou(){
+                    let nome = prompt('Informe seu nome:');
+
+                    let nota1 = prompt(`${nome}, qual a sua primeira nota?`);
+   
+                    let nota2 = prompt(`${nome}, qual a sua segunda nota?`);
+
+                    let media = ((Number(nota1) + Number(nota2)) / 2);
+
+                    res.innerHTML = `<p>Calculando a média final de <mark>${nome}</mark>.</p>`;
+                    
+                    res.innerHTML += `<p>As notas obtidas foram <mark>${nota1.replace('.',',')} e ${nota2.replace('.',',')}</mark>.</p>`;
+
+                    res.innerHTML += `<p>A média final será <mark>${media.toFixed(2).replace('.',',')}</mark>.</p>`;
+                }
+       </script>
+</body>
+</html>

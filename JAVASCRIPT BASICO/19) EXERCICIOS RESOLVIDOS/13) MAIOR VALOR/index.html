@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maior Valor</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input{
+            padding: 30px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+       <h1>Maior valor</h1> 
+       <input type="button" value="Clique para começar" onclick="clicou()">
+
+       <div id="res">
+            <p>O resultado vai aparecer aqui...</p>
+       </div>
+       <script>
+                let res = document.getElementById('res');
+
+                function clicou(){
+                    let n1 = Number(prompt('Digite um número:'));
+                    let n2 = Number(prompt('Digite outro número:'));
+
+                    if(n1 > n2){
+                        res.innerHTML = `<p>Analisando os valores <mark>${n1}</mark> e <mark>${n2}</mark>, o maior valor é <strong>${n1}</strong></p>`;
+                    } 
+                    else if(n1 < n2){
+                        res.innerHTML = `<p>Analisando os valores <mark>${n1}</mark> e <mark>${n2}</mark>, o maior valor é <strong>${n2}</strong></p>`;
+                    } 
+                    else {
+                        res.innerHTML = `<p>Analisando os valores <mark>${n1}</mark> e <mark>${n2}</mark>, ambos são <strong>IGUAIS</strong></p>`;
+                    }
+                }
+       </script>
+</body>
+</html>

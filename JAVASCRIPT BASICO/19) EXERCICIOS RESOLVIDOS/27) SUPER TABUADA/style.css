@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+:root{
+    --font-titulo: 'Pacifico', cursive;
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --cor-botao: green;
+}
+
+header > h1 {
+    font-family: var(--font-titulo);
+    font-weight: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnCont {
+    padding: 5px 5px;
+    background-color: var(--cor-botao);
+    color: white;
+    border-radius: 2px;
+    font-size: 1em;
+}
+
+#btnCont:hover{
+    background-color: rgb(2, 99, 2);
+}
+
+#num {
+    font-size:1em
+}
+
+#res > h2 {
+    font-family: var(--font-titulo);
+    font-weight: normal;
+}
+
